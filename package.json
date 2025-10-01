@@ -13,6 +13,6 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {},
-  "author": "Votre Nom <votre.email@example.com>",
+  "author": "Votre Nom <nouveau.email@example.com>",
   "license": "MIT"
 }
