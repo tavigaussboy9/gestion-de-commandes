@@ -1,0 +1,16 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - .:/app
+    networks:
+      - gestion_de_commandes
+
+networks:
+  gestion_de_commandes:
+    driver: bridge
